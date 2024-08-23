@@ -52,8 +52,7 @@ export const routes: Routes = [];
     }),
     NgOptimizedImage
   ],
-  providers: [{ provide: APP_BASE_HREF, useValue: '/jhchemicals/' }],
-
+  // providers: [{ provide: APP_BASE_HREF, useValue: '/jhchemicals/' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
